@@ -11,6 +11,8 @@ now, you can open: http://docs-azk.azk.dev
 ```sh
 # build
 azk shell docs-azk -c 'node node_modules/gitbook/bin/gitbook.js build content'
+
+azk shell -c "./deploy.rb -b azk-docs-stage -k AWS_KEY_HERE -s AWS_SECRET_HERE -o content/_book"
 ```
 
 

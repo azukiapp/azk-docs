@@ -3,21 +3,24 @@
     "description": "Sample Gitbook to use as a base for additional book development",
     "plugins":[
         "scrollablecode",
-        "toggle-chapters",
+        // "toggle-chapters",
         "jsbin",
         "anchors",
+        "include",
         "-mathjax"
     ],
     "links": {
+        "home": "http://azk.io",
+        "issues": "https://github.com/azukiapp/azk/issues",
+        "theme": "node_modules/gitbook-theme-clarity/lib",
+        "custom": {
+            "custom": "http://azukiapp.com"
+        },
         "sharing": {
             "google": false,
-            "facebook": false,
-            "twitter": false,
+            "facebook": null,
+            "twitter": null,
             "all": false
-        },
-        "sidebar": {
-            "Codeup": "http://www.codeup.com",
-            "Livestream": "http://www.codeup.com/live/"
         }
     }
 }

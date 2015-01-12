@@ -1,3 +1,21 @@
+# Azk documentation
+
+### start server
+```sh
+azk start
+```
+
+now, you can open: http://docs-azk.azk.dev
+
+### build
+```sh
+# build
+azk shell docs-azk -c 'node node_modules/gitbook/bin/gitbook.js build content'
+```
+
+
+--------------
+
 # Codeup Sample Gitbook
 
 The purpose of this repository is to give us a common set of tools and standards for writing Gitbooks. It is intended to be used as a base repository that all our actual books can fork and add content to. This way we can all use the same basic set of utilities and features across the board.

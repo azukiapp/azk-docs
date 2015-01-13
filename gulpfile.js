@@ -8,10 +8,6 @@ var del = require('del');
 var vinylPaths = require('vinyl-paths');
 
 
-gulp.task('gitbook-build', function () {
-  run('node node_modules/gitbook/bin/gitbook.js build content').exec();
-});
-
 gulp.task('del-wrong-gitbook-folder', function () {
   return gulp.src('content/_book/gitbook')
     // .pipe(stripDebug())
@@ -40,7 +36,8 @@ gulp.task('publish-stage', function() {
   var publisher = awspublish.create({
     key: process.env.AWS_ACCESS_KEY_ID,
     secret: process.env.AWS_SECRET_KEY,
-    bucket: process.env.AWS_BUCKET
+    bucket: process.env.AWS_BUCKET,
+    region: 'sa-east-1',
   });
 
   // define custom headers
@@ -72,7 +69,8 @@ gulp.task('publish-stage-gz', function() {
   var publisher = awspublish.create({
     key: process.env.AWS_ACCESS_KEY_ID,
     secret: process.env.AWS_SECRET_KEY,
-    bucket: process.env.AWS_BUCKET
+    bucket: process.env.AWS_BUCKET,
+    region: 'sa-east-1',
   });
 
   // define custom headers

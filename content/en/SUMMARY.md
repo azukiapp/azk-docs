@@ -5,7 +5,7 @@
 * [Installation](installation/README.md)
    * [Linux](installation/linux.md)
    * [Mac OS X](installation/mac_os_x.md)
-   * [Updating](installation/upgrading.md)
+   * [Upgrading](installation/upgrading.md)
 /*****************************************************/
 * [Getting started](getting-started/README.md)
    * [Starting an agent](getting-started/starting-agent.md)

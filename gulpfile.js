@@ -53,7 +53,7 @@ gulp.task('publish-stage', function() {
 
     // publisher will add Content-Length, Content-Type and headers specified above
     // If not specified it will set x-amz-acl to public-read by default
-    .pipe(parallelize(publisher.publish(headers), 10))
+    .pipe(parallelize(publisher.publish(headers), 5))
 
     // create a cache file to speed up consecutive uploads
     // .pipe(publisher.cache())
@@ -86,7 +86,7 @@ gulp.task('publish-stage-gz', function() {
 
     // publisher will add Content-Length, Content-Type and headers specified above
     // If not specified it will set x-amz-acl to public-read by default
-    .pipe(parallelize(publisher.publish(headers), 10))
+    .pipe(parallelize(publisher.publish(headers), 5))
 
     // create a cache file to speed up consecutive uploads
     // .pipe(publisher.cache())
@@ -107,7 +107,8 @@ gulp.task('set-env', function () {
 gulp.task('deploy', [
   'set-env',
   'publish-stage',
-  'publish-stage-gz']);
+  'publish-stage-gz'
+]);
 
 gulp.task('default', ['deploy']);
 

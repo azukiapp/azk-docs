@@ -6,6 +6,7 @@ Inicia todas instâncias dos sistemas especificados no `Azkfile.js` atual ou aqu
 - `--verbose, -v, -vv`          Aumenta o nível de detalhes (padrão: falso) - multiples supported
 - `--reprovision, -R`           Força o reprovisionamento antes de iniciar a instância do sistema (padrão: falso)
 - `--open="application", -o`    Abre o url do sistema padrão na aplicação definida (padrão: browser padrão da máquina)
+- `--rebuild, --pull`           Força o _build_ ou _pull_, conforme o _provider_ do sistema. (padrão: falso)
 
 #### Uso:
 

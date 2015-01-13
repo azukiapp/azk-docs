@@ -3,7 +3,6 @@
     "description": "Sample Gitbook to use as a base for additional book development",
     "plugins":[
         "scrollablecode",
-        // "toggle-chapters",
         "jsbin",
         "anchors",
         "include",

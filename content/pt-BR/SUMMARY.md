@@ -4,7 +4,7 @@
 /*****************************************************/
 * [Instalação](installing/README.md)
    * [Linux](installing/linux.md)
-   * [Mac os x](installing/mac_os_x.md)
+   * [Mac OS X](installing/mac_os_x.md)
    * [Atualizando](installing/upgrading.md)
 /*****************************************************/
 * [Começando](getting-started/README.md)
@@ -23,7 +23,7 @@
    /** [PHP](exemplos/php.md)*/
 /*****************************************************/
 * [Azkfile.js](azkfilejs/README.md)
-   * [visão geral](azkfilejs/overview.md)
+   * [Visão geral](azkfilejs/overview.md)
    * [image](azkfilejs/image.md)
    * [depends](azkfilejs/depends.md)
    * [provision](azkfilejs/provision.md)
@@ -60,6 +60,6 @@
 /*****************************************************/
 * [Imagens](imagens/README.md)
 /** [Contribuíndo](contribuindo/README.md)*/
-/** [Roodmap](roodmap/README.md)*/
-/** [Faq](faq/README)*/
+/** [Roadmap](roodmap/README.md)*/
+/** [FAQ](faq/README)*/
 

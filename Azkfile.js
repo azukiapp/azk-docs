@@ -5,15 +5,11 @@
 // Adds the systems that shape your system
 systems({
   'docs-azk': {
-    // Dependent systems
-    depends: [],
-    // More images:  http://images.azk.io
-    image: "azukiapp/ruby:2.1",
+    image: "node:0.10",
+
     // Steps to execute before running instances
     provision: [
-      "bundle install --path /azk/bundler",
       "npm i",
-      "node node_modules/gitbook/bin/gitbook.js install content",
       "node node_modules/gitbook/bin/gitbook.js install content",
     ],
     workdir: "/azk/#{manifest.dir}",
@@ -31,11 +27,6 @@ systems({
     },
     ports: {
       livereload: "35729:35729/tcp",
-    },
-    envs: {
-      // set instances variables
-      RUBY_ENV: "development",
-      BUNDLE_APP_CONFIG: "/azk/bundler",
     },
   },
 });

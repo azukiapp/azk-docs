@@ -29,6 +29,9 @@ systems({
       // docs-azk.
       domains: [ "#{system.name}.#{azk.default_domain}" ]
     },
+    ports: {
+      livereload: "35729:35729/tcp",
+    },
     envs: {
       // set instances variables
       RUBY_ENV: "development",

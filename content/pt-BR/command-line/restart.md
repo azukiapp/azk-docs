@@ -5,6 +5,7 @@ Pára todas instâncias dos sistemas especificados no `Azkfile.js` atual ou aque
 
 - `--verbose, -v, -vv`    Aumenta o nível de detalhes (padrão: falso) - suporta múltiplos
 - `--reprovision, -R`     Força o reprovisionamento antes de reiniciar a(s) instância(s) do sistema(s) (padrão: falso)
+- `--rebuild, --pull`     Força o _build_ ou _pull_, conforme o _provider_ do sistema. (padrão: falso)
 
 #### Uso:
 

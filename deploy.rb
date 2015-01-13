@@ -149,7 +149,7 @@ end
 end
 
 # Build book
-system "gitbook build -o \"#{options[:build_dir]}\" -f site content"
+system "node node_modules/gitbook/bin/gitbook.js build -o \"#{options[:build_dir]}\" -f site content"
 
 # Strip double slashes
 gitbook_css = File.join(options[:build_dir], 'gitbook', '*.css')

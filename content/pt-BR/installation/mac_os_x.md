@@ -1,6 +1,6 @@
 # Mac OS X
 
-**Aviso**: Se você você já tem o `azk` nas versões anteriores ao `0.6.0` instalado, siga [esses passos](upgrading.md#atualizando-a-partir-azk--051) antes de continuar. Se você não tem o `azk` instalado ignorar este aviso e continuar a instalação normalmente.
+!INCLUDE "warning.md"
 
 ## Requisitos
 
@@ -8,7 +8,7 @@
 
 ## Instalando o VirtualBox
 
-A instalação do VirtualBox pode ser feita acessando a [página][virtualbox_dl] e seguindo as instruções de instalação. Porém se você estiver usando [Homebrew Cask][homebrew_cask], é ainda mais fácil! Basta abrir o console e digitar:
+A instalação do VirtualBox pode ser feita acessando a [página][virtualbox_dl] e seguindo as instruções de instalação. Porém, se você estiver usando o [Homebrew Cask][homebrew_cask], é ainda mais fácil! Basta abrir o console e digitar:
 
 ```sh
 $ brew cask install virtualbox --appdir=/Applications

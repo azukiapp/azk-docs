@@ -2,10 +2,10 @@
 
 * [Introduction](README.md)
 /*****************************************************/
-* [Installation](installing/README.md)
-   * [Linux](installing/linux.md)
-   * [Mac OS X](installing/mac_os_x.md)
-   * [Updating](installing/upgrading.md)
+* [Installation](installation/README.md)
+   * [Linux](installation/linux.md)
+   * [Mac OS X](installation/mac_os_x.md)
+   * [Updating](installation/upgrading.md)
 /*****************************************************/
 * [Getting started](getting-started/README.md)
    * [Starting an agent](getting-started/starting-agent.md)

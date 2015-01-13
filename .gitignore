@@ -3,3 +3,4 @@ node_modules
 /content/_book
 /build
 .azk
+.env.json

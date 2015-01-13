@@ -151,8 +151,11 @@ end
 # Build book
 system "node node_modules/gitbook/bin/gitbook.js build -o \"#{options[:build_dir]}\" -f site content"
 
+# deleting gitbook from outside
+FileUtils.remove_entry_secure File.join(options[:build_dir], 'gitbook')
+
 # Strip double slashes
-gitbook_css = File.join(options[:build_dir], 'gitbook', '*.css')
+gitbook_css = File.join(options[:build_dir], 'pt-BR', 'gitbook', '*.css')
 
 Dir.glob gitbook_css do |css|
   puts "Removing double slash from #{css}"

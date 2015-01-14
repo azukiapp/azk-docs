@@ -1,8 +1,9 @@
 ## http
 
-Define qual a uri que será exportada
+Define qual a URI que será exportada.
 
 #### Uso:
+
 ```js
 http: {
   domains: [ 'URI' ],
@@ -12,6 +13,7 @@ http: {
 ##### Exemplos:
 
 Caso o projeto esteja na pasta `/home/projetos/azukidemo/` será disponibilizado o endereço http://azukidemo-sys1.azk.dev/
+
 ```js
 sys1:{
   http: {

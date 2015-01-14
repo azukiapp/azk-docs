@@ -1,11 +1,11 @@
 # Introdução
 
-![Figure 1-1](./images/logo.png)
+![Figure 1-1](./resources/images/logo.png)
 
-Bem vindo a documentação do `azk`! Esta documentação vai lhe ajudar a começar a utilizar o `azk`, mas também pode ser utilizada como material de referencias para as opções e formas de utilizar o `azk`.
+Bem vindo a documentação do `azk`! Esta documentação vai lhe ajudar a começar a utilizar o `azk`, mas também pode ser utilizada como material de referência para as opções e formas de utilizar o `azk`.
 
 # Sobre
 
-`Azk` é uma ferramenta de orquestração de ambientes de desenvolvimento, que através de um arquivo manifesto (o Azkfile.js), ajuda ao desenvolvedor a rapidamente: instalar, configurar e executar ferramentas comumente utilizadas para desenvolver aplicações web com as mais diversas tecnologias Open Source disponíveis e utilizadas do mercado.
+`azk` é uma ferramenta de orquestração de ambientes de desenvolvimento, que através de um arquivo manifesto (o Azkfile.js), ajuda ao desenvolvedor a rapidamente: instalar, configurar e executar ferramentas comumente utilizadas para desenvolver aplicações web com as mais diversas tecnologias Open Source disponíveis e utilizadas do mercado.
 
-Tudo isso feito de forma transparente e facilmente gerenciável. Graças ao sistemas de containers utilizados na execução de cada aplicação e suas dependências, tudo fica isolado e você pode facilmente remover e recriar os ambientes de cada aplicação sem nenhum efeito colateral ou sem perda de performance como aconteceria no uso de máquina virtuais para o mesmo fim.
+Tudo isso feito de forma transparente e facilmente gerenciável. Graças ao sistema de containers utilizados na execução de cada aplicação e suas dependências, tudo fica isolado e você pode facilmente remover e recriar os ambientes de cada aplicação sem nenhum efeito colateral ou sem perda de performance como aconteceria no uso de máquina virtuais para o mesmo fim.

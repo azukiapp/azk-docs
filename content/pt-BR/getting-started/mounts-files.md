@@ -1,6 +1,6 @@
 # Mapeando arquivos
 
-Se observamos o `Azkfile.js` gerado é possível notar uma entrada no sistema `azkdemo` chamada `mounts`:
+Se observarmos o `Azkfile.js` gerado, é possível notar uma entrada no sistema `azkdemo` chamada `mounts`:
 
 ```js
 systems({
@@ -20,7 +20,7 @@ Esta entrada basicamente orienta o `azk` sobre quais arquivos locais devem estar
 
 Se acessarmos o **shell** do sistema `azkdemo` será possível listar os arquivos da pasta `azkdemo` conforme o esperado:
 
-![Figure 1-1](../images/ls.png)
+![Figure 1-1](../resources/images/ls.png)
 
 Observe que, ao executar `azk shell`, você foi enviado para pasta `/azk/azkdemo`, esse _path_ corresponde a entrada `workdir` do Azkfile.js, que tem o valor: `/azk/#{system.name}`.
 

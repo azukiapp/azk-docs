@@ -1,29 +1,29 @@
 # Summary
 
-* [Introdução](README.md)
+* [Introduction](README.md)
 /*****************************************************/
-* [Instalação](installation/README.md)
+* [Installation](installation/README.md)
    * [Linux](installation/linux.md)
    * [Mac OS X](installation/mac_os_x.md)
-   * [Atualizando](installation/upgrading.md)
+   * [Upgrading](installation/upgrading.md)
 /*****************************************************/
-* [Começando](getting-started/README.md)
-   * [Levantando o agent](getting-started/starting-agent.md)
-   * [Configurando o projeto](getting-started/configs-project.md)
-   * [Rodando a aplicação](getting-started/running-application.md)
-   * [Bancos de dados](getting-started/database.md)
+* [Getting started](getting-started/README.md)
+   * [Starting an agent](getting-started/starting-agent.md)
+   * [Setting up a project](getting-started/configs-project.md)
+   * [Running an application](getting-started/running-application.md)
+   * [Databases](getting-started/database.md)
    * [Logs](getting-started/logs.md)
-   * [Mapeando arquivos](getting-started/mounts-files.md)
-   * [Persistindo informações](getting-started/persisting-data.md)
+   * [Mounting files](getting-started/mounts-files.md)
+   * [Persisting data](getting-started/persisting-data.md)
 /*****************************************************/
-/** [Exemplos](exemplos/README.md)*/
+/** [Examples](exemplos/README.md)*/
    /** [Rails](exemplos/rails.md)*/
    /** [node.js](exemplos/nodejs.md)*/
    /** [Python](exemplos/python.md)*/
    /** [PHP](exemplos/php.md)*/
 /*****************************************************/
 * [Azkfile.js](azkfilejs/README.md)
-   * [Visão geral](azkfilejs/overview.md)
+   * [Overview](azkfilejs/overview.md)
    * [image](azkfilejs/image.md)
    * [depends](azkfilejs/depends.md)
    * [provision](azkfilejs/provision.md)
@@ -38,7 +38,7 @@
    * [export_envs](azkfilejs/export_envs.md)
    * [ports](azkfilejs/ports.md)
 /*****************************************************/
-* [Linha de comando](command-line/README.md)
+* [Command line](command-line/README.md)
    * [agent](command-line/agent.md)
    * [configs](command-line/configs.md)
    * [docker](command-line/docker.md)
@@ -54,12 +54,14 @@
    * [restart](command-line/restart.md)
    * [status](command-line/status.md)
    * [version](command-line/version.md)
-   /** [Operações básicas](azkfilejs/basic.md)*/
+   /** [Basic commands](azkfilejs/basic.md)*/
    /** [Shell](azkfilejs/shell.md)*/
-   /** [Escalando](azkfilejs/escalando.md)*/
+   /** [Scaling](azkfilejs/escalando.md)*/
 /*****************************************************/
 * [Agent](agent/README.md)
-* [Imagens](images/README.md)
+* [Images](images/README.md)
 * [FAQ](faq/README.md)
-/** [Contribuíndo](contributing/README.md)*/
 /** [Roadmap](roadmap/README.md)*/
+/** [Contributing](contribuindo/README.md)*/
+/** [Roadmap](roodmap/README.md)*/
+

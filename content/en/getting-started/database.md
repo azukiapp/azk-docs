@@ -1,8 +1,8 @@
-# Bancos de dados
+# Databases
 
-Nossa aplicação de demonstração mostra um simples contador de visitas, porém, antes disso, será preciso configurar um banco de dados onde a aplicação poderá salvar essa contagem de visitas.
+Our demo application shows a simple visit counter, but, before that, you need to set up a database where the application can save this visit count.
 
-Instalar e configurar um banco de dados no `azk` é muito simples. Primeiro você deve editar o arquivo `Azkfile.js` e adicionar uma nova entrada em `systems` referente ao banco de dados. Nesse caso vamos utilizar o __redis__:
+Installing and configuring a database in `azk` is very simple. First you must edit the `Azkfile.js` file and add a new entry in `systems` referring to the database. In this case we will use __redis__:
 
 ```js
 // Adds the systems that shape your system
@@ -20,7 +20,7 @@ systems({
 });
 ```
 
-Feito isso já é possível levantar o novo sistema e ter acesso ao banco de dados:
+Once this is done it's possible to start the new system and have access to the database:
 
 ```bash
 $ azk start redis
@@ -35,11 +35,11 @@ azk: ◴ waiting start `redis` system, try connect port 6379/tcp...
 └───┴────────┴────────────┴──────────┴─────────────────┴─────────────┘
 ```
 
-# Configurando aplicação
+# Configuring application
 
-Para que nossa aplicação de exemplo consiga se conectar ao banco de dados precisamos primeiro **instalar a biblioteca** de conexão ao banco de dados.
+For our sample application to be able to connect to the database we must first **install the library** connection to the database.
 
-Devemos lembrar, no `azk` a instalação de dependências é sempre feita em um "**ambiente isolado**", por isso vamos chamar o **shell** do `azk` para fazer a instalação:
+We must remember, in `azk` the installation of dependencies is always done in an "**isolated environment**", so we'll call the **shell** of `azk` for installation:
 
 ```bash
 $ azk shell azkdemo
@@ -51,9 +51,9 @@ redis@0.12.1 node_modules/redis
 [ root@3848e1df91cf:/azk/azkdemo ]$ exit
 ```
 
-# Conectando os sistemas
+# Connecting systems
 
-Uma vez que o banco de dados já esta instalado e já temos as dependências necessárias para acessá-lo, podemos configurar nossa aplicação para que dependa do banco de dados. Isso irá fazer com que o sistema `redis` seja iniciado antes da aplicação `azkdemo`. Edite o `Azkfile.js`:
+Once the database is already installed and we have the necessary dependencies to access it, we can configure our application that relies on the database. This will cause the `redis` system to start before the `azkdemo` application. Edit `Azkfile.js`:
 
 ```js
 // Adds the systems that shape your system
@@ -69,7 +69,7 @@ systems({
 });
 ```
 
-Pronto, agora basta reiniciar o sistema `azkdemo` e o contador deverá aparecer:
+Now we just restart the `azkdemo` system and the counter should appear:
 
 ```bash
 $ azk restart azkdemo
@@ -86,6 +86,6 @@ azk: ◴ waiting start `azkdemo` system, try connect port http/tcp...
 └───┴─────────┴────────────┴────────────────────────┴────────────────────────────┴───────────────┘
 ```
 
-Acessando [http://azkdemo.azk.dev](http://azkdemo.azk.dev), você verá:
+Accessing [http://azkdemo.azk.dev](http://azkdemo.azk.dev) you will see:
 
 ![Figure 1-1](../resources/images/start_2.png)

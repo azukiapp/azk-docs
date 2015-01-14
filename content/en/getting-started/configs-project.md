@@ -1,8 +1,8 @@
-# Configurando o projeto
+# Setting up the project
 
-O primeiro passo para utilizar o `azk` em qualquer projeto é criar um arquivo `Azkfile.js`. Este arquivo tem como função marcar o diretório root do seu projeto e principalmente definir a *arquitetura da aplicação*.
+The first step to use `azk` in any project is to create an `Azkfile.js` file. This file has the function to define the root directory of your project and also define the *application architecture*.
 
-O `Azkfile.js` pode ser criado manualmente, mas para sua comodidade oferecemos o `azk init`, um gerador de `Azkfile.js` que irá fazer o trabalho pesado de descobrir como sua aplicação está desenhada e sugerir um `Azkfile.js`.
+The `Azkfile.js` file can be created manually, but for your convenience we offer the `azk init` command, a `Azkfile.js` generator that will do the heavy lifting of figuring out how your application is designed and suggest an `Azkfile.js`.
 
 ```bash
 $ cd [path_demo]/azkdemo
@@ -12,7 +12,7 @@ azk: `node` system was detected at '[path_demo]/azkdemo'
 azk: 'Azkfile.js' generated
 ```
 
-Isso deve gerar o `Azkfile.js`:
+This should generate the following `Azkfile.js`:
 
 ```js
 // Adds the systems that shape your system
@@ -46,4 +46,4 @@ systems({
 });
 ```
 
-Na seção [Azkfile.js](../azkfilejs/README.md) você encontra informações detalhadas sobre como construir um `Azkfile.js` e quais opções estão disponíveis. Por hora, temos o suficiente para executar nossa aplicação.
+In the [Azkfile.js](../azkfilejs/README.md) section you can find detailed information on how to build an `Azkfile.js` and what options are available. For now, we have enough to run our application.

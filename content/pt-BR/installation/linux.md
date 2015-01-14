@@ -1,6 +1,6 @@
 # Linux
 
-**Aviso**: Se você você já tem o `azk` nas versões anteriores ao `0.6.0` instalado, siga [estes passos](upgrading.md#atualizando-a-partir-azk--051) antes de continuar. Se você não tem o `azk` instalado ignore este aviso e continue a instalação normalmente.
+!INCLUDE "warning.md"
 
 ## Requisitos
 
@@ -14,10 +14,10 @@
 
 1. Instale o Docker:
 
-  - [instale **a versão 1.3 do Docker**][docker_ubuntu_14_04]
-  - configure para que seu usuário [tenha acesso ao Docker][docker_root_access];
-  - [desabite o uso de dnsmasq][docker_ubuntu_dns];
-  - **tenha certeza de que o serviço do Docker está rodando**;
+  - [Instale **a versão 1.3 do Docker**][docker_ubuntu_14_04]
+  - Configure para que seu usuário [tenha acesso ao Docker][docker_root_access];
+  - [Desabilite o uso de dnsmasq][docker_ubuntu_dns];
+  - **Tenha certeza de que o serviço do Docker está rodando**;
 
 2. Adicionando as chaves do Azuki ao seu keychain local:
 
@@ -44,9 +44,9 @@
 
 1. Instale o Docker:
 
-  - [instale **a versão 1.3 do Docker**][docker_ubuntu_12_04]
-  - configure para que seu usuário [tenha acesso ao Docker][docker_root_access];
-  - **tenha certeza de que o serviço do Docker esta rodando**;
+  - [Instale **a versão 1.3 do Docker**][docker_ubuntu_12_04]
+  - Configure para que seu usuário [tenha acesso ao Docker][docker_root_access];
+  - **Tenha certeza de que o serviço do Docker está rodando**;
   
 2. Adicionando as chaves do Azuki ao seu keychain local:
 
@@ -62,7 +62,7 @@
     sudo tee /etc/apt/sources.list.d/azuki.list
   ```
 
-4. Atualiza a lista de pacotes e instale o azk:
+4. Atualize a lista de pacotes e instale o azk:
 
   ```bash
   $ sudo apt-get update
@@ -71,7 +71,7 @@
 
 ## Fedora 20
 
-1. Adicionando as chaves do Azuki ao seu keychain local:
+1. Adicione as chaves do Azuki ao seu keychain local:
 
   ```bash
   $ rpm --import \
@@ -97,8 +97,8 @@
 
 4. Antes de executar o `azk agent`:
 
-  - configure para que seu usuário [tenha acesso ao Docker][docker_root_access];
-  - **tenha certeza de que o serviço do Docker esta rodando**;
+  - Configure para que seu usuário [tenha acesso ao Docker][docker_root_access];
+  - **Tenha certeza de que o serviço do Docker está rodando**;
 
 ## Outras distribuições
 

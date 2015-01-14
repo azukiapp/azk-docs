@@ -6,7 +6,7 @@ Se você [configurou um banco de dados](database.md), verá que vários _refresh
 $ azk restart redis
 ```
 
-Acessando [http://azkdemo.azk.dev](http://azkdemo.azk.dev) você irá verificar que o contador de acessos foi reiniciado. Isso acontece porque o banco de dados não sabe onde deve persistir a informação sobre os acessos.
+Ao acessar [http://azkdemo.azk.dev](http://azkdemo.azk.dev) você irá verificar que o contador de acessos foi reiniciado. Isso acontece porque o banco de dados não sabe onde deve persistir a informação sobre os acessos.
 
 ## Volume persistente
 
@@ -19,7 +19,7 @@ systems({
   },
   redis: {
     image: "redis",
-    // <-- adicione o command e mounts
+    // <-- add command and mounts
     command: "redis-server --appendonly yes",
     mounts: {
       "/data": persistent("data"),
@@ -31,8 +31,8 @@ systems({
 });
 ```
 
-Com esta alteração, `mounts`, estamos instruindo ao `azk` para que monte a pasta `/data` e aponte para a mesma pasta dentro da estrutura do `azk`. Faça alguns _refresh_ na página e reinicie o `redis` e verá que a contagem agora persiste entre cada restart.
+Com esta alteração, `mounts`, estamos instruindo ao `azk` para que monte a pasta `/data` e aponte para a mesma pasta dentro da estrutura do `azk`. Faça alguns _refresh_ na página, reinicie o `redis` e verá que a contagem agora persiste entre cada restart.
 
-> **Observação 1:** A outra configuração incluída, o `command: "redis-server --appendonly yes"`, diz ao `azk` o modo como o sistema redis será iniciado. A intrução `--appendonly yes`, como descrito [aqui](http://redis.io/topics/persistence), configura o redis para persistir seus dados mesmo que ele seja reiniciado.
+> **Observação 1:** A outra configuração incluída, o `command: "redis-server --appendonly yes"`, diz ao `azk` o modo como o sistema redis será iniciado. A instrução `--appendonly yes`, como descrito [aqui](http://redis.io/topics/persistence), configura o redis para persistir seus dados mesmo que ele seja reiniciado.
 
 > **Observação 2:** Nem sempre os bancos de dados usam a mesma pasta `/data` para persistir os dados, isso deve ser configurado conforme a necessidade de cada banco de dados. Mais informações [aqui]().

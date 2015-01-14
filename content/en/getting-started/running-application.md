@@ -1,12 +1,12 @@
-# Rodando a aplicação
+# Running the application
 
-Uma vez que o `Azkfile.js` esteja criado, estamos prontos para levantar nossa aplicação:
+Once the `Azkfile.js` is created, we are ready to start our application:
 
 ```bash
 $ azk start -vv
 ```
 
-A saída do comando acima deve ser algo parecido com isso:
+The output of the command above should look something like this:
 
 ```bash
 azk: ↑ starting `azkdemo` system, 2 new instances...
@@ -22,31 +22,31 @@ azk: ◴ waiting start `azkdemo` system, try connect port http/tcp...
 azk: ◴ waiting start `azkdemo` system, try connect port http/tcp...
 
 ┌───┬────────┬────────────┬───────────────────────┬────────────────────────────┬───────────────────┐
-│   │ System │ Instancies │ Hostname              │ Instances-Ports            │ Provisioned       │
+│   │ System │ Instances  │ Hostname              │ Instances-Ports            │ Provisioned       │
 ├───┼────────┼────────────┼───────────────────────┼────────────────────────────┼───────────────────┤
 │ ↑ │ azkiso │ 2          │ http://azkdemo.azk.dev│ 2-http:49154, 1-http:49153 │ a few seconds ago │
 └───┴────────┴────────────┴───────────────────────┴────────────────────────────┴───────────────────┘
 ```
 
-Se tudo ocorreu conforme o esperado agora você pode acessar [http://azkdemo.azk.dev](http://azkdemo.azk.dev) e a seguinte tela deve aparecer:
+If all went as expected now you can access [http://azkdemo.azk.dev](http://azkdemo.azk.dev) and the following screen should appear:
 
-![Figure 1-1](../images/start_1.png)
+![Figure 1-1](../resources/images/start_1.png)
 
-Observe que ao atualizar a página algumas vezes o `instance id` é alterado para um outro valor. Isso ocorre pois existe um balanceador de carga que aponta para uma das 2 instâncias do site.
+Note that when you refresh the page a few times the `instance id` is changed to another value. This happens because there is a load balancer that points to one of two instances of the site.
 
-Na saída do `azk status` podemos conferir que existem 2 instâncias do sistema azkdemo:
+In the output of `azk status` we can check that there are two instances of the azkdemo system:
 
 ```
 $ azk status
 
 ┌───┬─────────┬────────────┬────────────────────────┬────────────────────────────┬───────────────┐
-│   │ System  │ Instancies │ Hostname               │ Instances-Ports            │ Provisioned   │
+│   │ System  │ Instances  │ Hostname               │ Instances-Ports            │ Provisioned   │
 ├───┼─────────┼────────────┼────────────────────────┼────────────────────────────┼───────────────┤
 │ ↑ │ azkdemo │ 2          │ http://azkdemo.azk.dev │ 2-http:49168, 1-http:49167 │ 3 minutes ago │
 │   │         │            │                        │                            │               │
 └───┴─────────┴────────────┴────────────────────────┴────────────────────────────┴───────────────┘
 ```
 
-Esta configuração, de se usar duas instâncias, está definida no Azkfile.js (gerado no [passo anterior](configs-project.md)):
+This setting, to use two instances, is defined in the Azkfile.js (generated in the [previous step](configs-project.md)):
 
     scalable: {"default": 2},

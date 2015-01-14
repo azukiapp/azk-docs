@@ -1,8 +1,9 @@
 ## provision
 
-Especifica alguns comandos para serem executados antes que o sistema esteja pronto para executar o `command`. Para tarefas muito pesadas
+Especifica alguns comandos para serem executados antes que o sistema esteja pronto para executar o `command`. Para tarefas muito pesadas.
 
 #### Uso:
+
 ```js
 provision: [
     'COMMAND 1',
@@ -15,6 +16,7 @@ provision: [
 ##### Exemplos:
 
 Para sistemas que utilizam __rails__ é comum que sejam executados o `bundle install` e o `rake db`.
+
 ```js
 rails_system: {
   provision: [

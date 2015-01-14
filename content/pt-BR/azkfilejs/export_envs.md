@@ -3,6 +3,7 @@
 Exporta variáveis de ambiente do sistema atual para os sistemas que dependem dele.
 
 #### Uso:
+
 ```js
 export_envs: {
   ENV_NAME_1: 'ENV_VALUE_1',
@@ -14,7 +15,8 @@ export_envs: {
 
 ##### Exemplos:
 
-Exporta uma variável de ambiente `REDIS_URL` do sistema `redis_system` para o sistema `sys1`, pois este depende do banco de dados.
+Exporta uma variável de ambiente `REDIS_URL` do sistema `redis_system` para o sistema `sys1`, pois este depende do banco de dados [Redis][redis].
+
 ```js
 sys1: {
   deps: 'redis_system'

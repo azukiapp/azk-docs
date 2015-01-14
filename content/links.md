@@ -7,3 +7,5 @@
 [docker_ubuntu_12_04]: https://docs.docker.com/installation/ubuntulinux/#ubuntu-precise-1204-lts-64-bit
 [docker_ubuntu_dns]: https://docs.docker.com/installation/ubuntulinux/#docker-and-local-dns-server-warnings
 [docker_root_access]: https://docs.docker.com/installation/ubuntulinux/#giving-non-root-access
+[postgres]: http://www.postgresql.org/
+[redis]: http://redis.io/

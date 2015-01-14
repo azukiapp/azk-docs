@@ -34,6 +34,12 @@ gulp.task('replace-font-path-en', function(){
     .pipe(gulp.dest('./content/_book/en/gitbook/'));
 });
 
+gulp.task('replace-style.css-path-on-index', function(){
+  gulp.src(['./content/_book/index.html'])
+    .pipe(replace(/gitbook\/style\.css/gm, 'pt-BR/gitbook/style.css'))
+    .pipe(gulp.dest('./content/_book/'));
+});
+
 
 // // Deploying normal files
 // gulp.task('publish-stage', function() {
@@ -116,8 +122,7 @@ gulp.task('set-env', function () {
 
 gulp.task('deploy', [
   'set-env',
-  // 'publish-stage',
-  'publish-stage-gz'
+  'publish-stage-gz',
 ]);
 
 gulp.task('default', ['deploy']);

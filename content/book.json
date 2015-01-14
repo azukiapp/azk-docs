@@ -1,6 +1,6 @@
 {
-    "title": "Sample Gitbook",
-    "description": "Sample Gitbook to use as a base for additional book development",
+    "title": "azk Docs Gitbook",
+    "description": "Gitbook documentation for azk",
     "plugins":[
         "scrollablecode",
         "jsbin",

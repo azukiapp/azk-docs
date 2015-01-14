@@ -47,12 +47,12 @@
    * [info](command-line/info.md)
    * [init](command-line/init.md)
    * [logs](command-line/logs.md)
+   * [restart](command-line/restart.md)
    * [scale](command-line/scale.md)
    * [shell](command-line/shell.md)
    * [start](command-line/start.md)
-   * [stop](command-line/stop.md)
-   * [restart](command-line/restart.md)
    * [status](command-line/status.md)
+   * [stop](command-line/stop.md)
    * [version](command-line/version.md)
    /** [Basic commands](azkfilejs/basic.md)*/
    /** [Shell](azkfilejs/shell.md)*/

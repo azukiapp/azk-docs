@@ -8,5 +8,5 @@ $ azk logs -f
 
 Acessando [http://azkdemo.azk.dev](http://azkdemo.azk.dev) algumas vezes, devemos obter um log parecido com o exibido abaixo:
 
-![Figure 1-1](../images/logs.png)
+![Figure 1-1](../resources/images/logs.png)
 

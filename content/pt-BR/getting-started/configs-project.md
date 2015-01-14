@@ -46,4 +46,4 @@ systems({
 });
 ```
 
-Na sessões [Azkfile.js](../azkfilejs/README.md) você encontra informações detalhadas sobre como construir um `Azkfile.js` e quais opções estão disponíveis. Por hora, temos o suficiente para executar nossa aplicação.
+Na seção [Azkfile.js](../azkfilejs/README.md) você encontra informações detalhadas sobre como construir um `Azkfile.js` e quais opções estão disponíveis. Por hora, temos o suficiente para executar nossa aplicação.

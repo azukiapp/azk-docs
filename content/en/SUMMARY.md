@@ -10,7 +10,7 @@
 * [Getting started](getting-started/README.md)
    * [Starting an agent](getting-started/starting-agent.md)
    * [Setting up a project](getting-started/configs-project.md)
-   * [Running an application](getting-started/runing-application.md)
+   * [Running an application](getting-started/running-application.md)
    * [Databases](getting-started/database.md)
    * [Logs](getting-started/logs.md)
    * [Mounting files](getting-started/mounts-files.md)
@@ -58,8 +58,10 @@
    /** [Shell](azkfilejs/shell.md)*/
    /** [Scaling](azkfilejs/escalando.md)*/
 /*****************************************************/
-* [Images](imagens/README.md)
+* [Agent](agent/README.md)
+* [Images](images/README.md)
+* [FAQ](faq/README.md)
+/** [Roadmap](roadmap/README.md)*/
 /** [Contributing](contribuindo/README.md)*/
 /** [Roadmap](roodmap/README.md)*/
-/** [FAQ](faq/README)*/
 

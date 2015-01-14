@@ -1,5 +1,6 @@
 # Linha de Comando
-A linha de comandos é a principal forma de utilização do `azk`. É a partir do console que podemos iniciar o `agent`, iniciar as instâncias dos sistemas e até mesmo criar um `Azkfile.js`. Abaixo estão listados todos os comandos suportados no `azk`:
+
+A linha de comando é a principal forma de utilização do `azk`. É a partir do terminal que podemos iniciar o `agent`, iniciar as instâncias dos sistemas e até mesmo criar um `Azkfile.js`. Abaixo estão listados todos os comandos suportados no `azk`:
 
 - [azk agent](agent.md)
 - [azk configs](configs.md)

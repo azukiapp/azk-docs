@@ -1,4 +1,5 @@
 ## azk init
+
 Inicializa o arquivo `Azkfile.js` baseando-se nos sistemas contidos na pasta atual.
 
 #### Opções:
@@ -9,7 +10,7 @@ Inicializa o arquivo `Azkfile.js` baseando-se nos sistemas contidos na pasta atu
 
     $ azk [options] init [options] [path]
 
-#### Exemplos:
+#### Exemplo:
 
 ```
 $ azk init

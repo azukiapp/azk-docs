@@ -1,5 +1,6 @@
 ## azk restart
-Pára todas instâncias dos sistemas especificados no `Azkfile.js` atual ou aquele especificado e inicia novamente. Mantém o número de instâncias atual, porém, caso ocorra algum erro durante a reinicialização, todos os sistemas serão derrubados.
+
+Pára todas as instâncias dos sistemas especificados no `Azkfile.js` atual, ou aquele especificado, e inicia eles novamente. Mantém o número de instâncias atual, porém, caso ocorra algum erro durante a reinicialização, todos os sistemas serão derrubados.
 
 #### Opções:
 
@@ -11,7 +12,7 @@ Pára todas instâncias dos sistemas especificados no `Azkfile.js` atual ou aque
 
     $ azk [options] restart [options] [system]
 
-#### Exemplos:
+#### Exemplo:
 
 ```sh
 $ azk restart -R node010
@@ -24,7 +25,7 @@ azk: ◴ waiting start `node010` system, try connect port http/tcp...
 azk: ◴ waiting start `node010` system, try connect port http/tcp...
 
 ┌───┬─────────┬────────────┬────────────────────────┬────────────────────────────┬───────────────────┐
-│   │ System  │ Instancies │ Hostname               │ Instances-Ports            │ Provisioned       │
+│   │ System  │ Instances  │ Hostname               │ Instances-Ports            │ Provisioned       │
 ├───┼─────────┼────────────┼────────────────────────┼────────────────────────────┼───────────────────┤
 │ ↑ │ node010 │ 2          │ http://node010.azk.dev │ 2-http:49166, 1-http:49165 │ a few seconds ago │
 └───┴─────────┴────────────┴────────────────────────┴────────────────────────────┴───────────────────┘

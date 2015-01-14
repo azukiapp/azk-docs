@@ -1,5 +1,6 @@
 ## azk status
-Exibe o _status_ da instância de um sistema ou de todos sistema a partir do _Azkfile.js_ encontrado.
+
+Exibe o _status_ da instância de um sistema ou de todos os sistemas a partir do _Azkfile.js_ encontrado.
 
 #### Opções:
 
@@ -17,7 +18,7 @@ Exibe o _status_ da instância de um sistema ou de todos sistema a partir do _Az
 $ azk status node010 -l
 
 ┌───┬─────────┬────────────┬────────────────────────┬────────────────────────────┬────────────────┬───────────┐
-│   │ System  │ Instancies │ Hostname               │ Instances-Ports            │ Provisioned    │ Image     │
+│   │ System  │ Instances  │ Hostname               │ Instances-Ports            │ Provisioned    │ Image     │
 ├───┼─────────┼────────────┼────────────────────────┼────────────────────────────┼────────────────┼───────────┤
 │ ↑ │ node010 │ 2          │ http://node010.azk.dev │ 2-http:49166, 1-http:49165 │ 21 minutes ago │ node:0.10 │
 │   │         │            │                        │                            │                │           │

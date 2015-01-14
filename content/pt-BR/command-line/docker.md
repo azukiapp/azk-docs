@@ -1,12 +1,12 @@
 ## azk docker
 
-_Alias_ para realizar a chamada do docker no escopo de configuração do `azk`
+_Alias_ para realizar a chamada do docker no escopo de configuração do `azk`.
 
 #### Uso:
 
     $ azk [options] docker [*dockerargs]
 
-#### Exemplos:
+#### Exemplo:
 
 ```
 $ azk docker info

@@ -1,5 +1,6 @@
 ## azk info
-Exibe informações dos sistemas listados no `Azkfile.js`
+
+Exibe informações dos sistemas listados no `Azkfile.js`.
 
 #### Opções:
 
@@ -9,7 +10,7 @@ Exibe informações dos sistemas listados no `Azkfile.js`
 
      $ azk [options] info [path]
 
-#### Exemplos:
+#### Exemplo:
 
 ```
 $ azk info

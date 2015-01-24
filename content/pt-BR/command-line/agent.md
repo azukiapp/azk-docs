@@ -1,25 +1,26 @@
 ## azk agent
+
 Controla o serviço `azk agent`. Este comando deve ser executado antes de levantar qualquer sistema.
 
 #### Uso:
 
     $ azk [options] agent [options] {action}
 
-
 _______________
 ### azk agent start
-Inicia o `agent`
+
+Inicia o `agent`.
 
 #### Opções:
 
-- `--daemon`      inicia em modo backgroung
+- `--daemon`      inicia em modo background
 - `--no-daemon`   inicia em modo foregroung
 
 #### Exemplos:
-##### Inicia o _agent_ em _backgroung_:
+
+##### Inicia o _agent_ em _background_:
 
     $ azk agent start
-
 
 ##### Inicia o _agent_ em _foreground_:
 
@@ -29,7 +30,8 @@ Inicia o `agent`
 
 _______________
 ### azk agent stop
-Pára o `agent` quando este está em background
+
+Pára o `agent` quando este está em background.
 
 #### Exemplos:
 
@@ -37,7 +39,8 @@ Pára o `agent` quando este está em background
 
 _______________
 ### azk agent status
-Exibe a situção atual do `agent`
+
+Exibe a situção atual do `agent`.
 
 #### Exemplos:
 

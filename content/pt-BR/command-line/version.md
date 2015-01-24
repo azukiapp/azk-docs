@@ -1,4 +1,5 @@
 ## azk version
+
 Exibe a versão atual do `azk`
 
 #### Uso:

@@ -1,11 +1,12 @@
 ## azk help
-Exibe informações de ajuda sobre um comando especifico
+
+Exibe informações de ajuda sobre um comando especifico.
 
 #### Uso:
 
     $ azk [options] help [command]
 
-#### Exemplos:
+#### Exemplo:
 
 ```
 $ azk help agent
@@ -24,4 +25,3 @@ actions:
   status      Show the azk agent status
   stop        Stop the azk agent running in the background
 ```
-

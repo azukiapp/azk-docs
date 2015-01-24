@@ -1,5 +1,6 @@
 ## azk doctor
-Shows an analysis of the health of `azk`
+
+Mostra uma análise da saúde do `azk`. 
 
 #### Opções:
 
@@ -9,7 +10,7 @@ Shows an analysis of the health of `azk`
 
     $ azk [options] doctor [options]
 
-#### Exemplos:
+#### Exemplo:
 
 ```
 $ azk doctor

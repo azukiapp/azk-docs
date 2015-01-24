@@ -1,17 +1,18 @@
 ## azk logs
-Exibe o _log_ do sistema indicado
+
+Exibe o _log_ do sistema indicado.
 
 #### Opções:
 
 - `--follow, --tail, -f`  Exibe o log em tempo real (padrão: falso)
-- `--lines, -n`           Exibe as `n` únltimas linhas do log
-- `--timestamps`          Exibe data e hora paracada linha de log (padrão: verdadeiro)
+- `--lines, -n`           Exibe as `n` últimas linhas do log
+- `--timestamps`          Exibe data e hora para cada linha do log (padrão: verdadeiro)
 
 #### Uso:
 
     $ azk [options] logs [options] [system] [instances]
 
-#### Exemplos:
+#### Exemplo:
 
 ```
 $ azk logs

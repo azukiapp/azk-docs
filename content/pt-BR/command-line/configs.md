@@ -1,10 +1,11 @@
 ## azk configs
-Shows the azk configs values
+
+Mostra os valores de configs do azk.
 
 #### Uso:
 
      $ azk [options] configs [path]
 
-#### Exemplos:
+#### Exemplo:
 
      $ azk [options] configs [path]

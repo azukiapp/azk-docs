@@ -1,6 +1,6 @@
 ## azk shell
 
-Inicializa um shell com o contexto da instância, ou executa um comando arbitrário
+Inicializa um shell com o contexto da instância, ou executa um comando arbitrário.
 
 #### Opções:
 
@@ -11,7 +11,7 @@ Inicializa um shell com o contexto da instância, ou executa um comando arbitrá
 - `--command="", -c`      Executa um comando especifico
 - `--shell`               Caminho para o binário do shell
 - `--cwd="", -C`          Diretório padrão
-- `--mount="", -m, -mm`   Aponta para uma montagem adicional (ex:./origin:/azk/target) - multiples supported
+- `--mount="", -m, -mm`   Aponta para uma montagem adicional (ex:./origin:/azk/target) - suporta múltiplas
 - `--env="", -e, -ee`     Variável de ambiente adicional - suporta múltiplas
 - `--verbose, -v`         Exibe detalhes sobre a execução do comando (padrão: falso)
 
